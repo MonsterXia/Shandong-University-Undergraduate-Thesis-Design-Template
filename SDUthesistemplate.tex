@@ -1,0 +1,47 @@
+% !Mode:: "TeX:UTF-8"
+%!TEX program = xelatex
+%\expandafter\def\csname CTEX@spaceChar\endcsname{\hspace{1em}}
+\documentclass[single,print]{sduthesis}
+
+\input{contents/titlepageinfo.tex}
+\input{contents/usersettings.tex}
+
+\begin{document}
+
+% 首页
+\maketitlepage
+
+% 首页及原创性声明
+% \maketitlepagestatement
+\cleardoublepage
+
+% 中英文摘要
+\input{contents/abstract.tex}
+
+% 中文目录
+\maketableofcontents
+
+% 正文部分使用阿拉伯数字页码
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{contents/ch1.tex}
+\input{contents/ch2.tex}
+\input{contents/ch3.tex}
+% \input{contents/help.tex}
+\input{contents/conclusions.tex}
+
+% 参考文献
+\printbibliography[heading=myheading]
+
+% 致谢及其他
+\input{contents/acknowledgement.tex}
+
+% 附录
+\startappendices
+\input{contents/appendix.tex}
+% \input{contents/translation.tex}
+
+\end{document}
+% 样式类
+\input{sduthesis.cls}
