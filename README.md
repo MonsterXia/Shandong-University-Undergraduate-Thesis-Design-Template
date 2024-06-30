@@ -1,6 +1,6 @@
 # 山东大学本科毕业论文（设计）模板
 
-本论文模板在 CLatex环境下编译通过。
+本论文模板在 CTex环境下编译通过。
 
 本模板可在overleaf上运行，若使用本地编译器，<span style="color:red;">引文的编译请使用Biber！</span>
 
@@ -47,7 +47,7 @@
 
 ## Shandong University Undergraduate Thesis (Design) Template
 
-This research paper template compiles successfully in the xeLaTeX environment.
+This research paper template compiles successfully in the CTeX environment.
 
 This template can be run on Overleaf. If you are using a local compiler, <span style="color:red;">please use Biber for citation compilation！</span>
 
