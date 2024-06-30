@@ -48,7 +48,9 @@
 ## Shandong University Undergraduate Thesis (Design) Template
 
 This research paper template compiles successfully in the xeLaTeX environment.
+
 This template can be run on Overleaf. If you are using a local compiler, <span style="color:red;">please use Biber for citation compilation！</span>
+
 The default main branch is the version that strictly follows the school's requirements and includes standard font files. In the "overleafAdaptedVersion" branch, modifications have been made to the Kai font in order to comply with the copyright requirements of the public template library.
 
 ### Template Reference
