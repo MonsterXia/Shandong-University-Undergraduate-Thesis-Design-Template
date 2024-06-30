@@ -1,7 +1,8 @@
 # 山东大学本科毕业论文（设计）模板
 
-本论文模板在 xeLatex环境下编译通过。
+本论文模板在 CLatex环境下编译通过。
 本模板可在overleaf上运行，若使用本地编译器，<span style="color:red;">引文的编译请使用Biber！</span>
+默认的主分支为带标准字体文件的严格按照学校要求的版本，在分支overleafAdapatedVersion中为了遵循公共模板库的相关版权要求，对楷体字体做了相应修改适配。
 
 ## 模板参照
 
@@ -46,6 +47,7 @@
 
 This research paper template compiles successfully in the xeLaTeX environment.
 This template can be run on Overleaf. If you are using a local compiler, <span style="color:red;">please use Biber for citation compilation！</span>
+The default main branch is the version that strictly follows the school's requirements and includes standard font files. In the "overleafAdaptedVersion" branch, modifications have been made to the Kai font in order to comply with the copyright requirements of the public template library.
 
 ### Template Reference
 
