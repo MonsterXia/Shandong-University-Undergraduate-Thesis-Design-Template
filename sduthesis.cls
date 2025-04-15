@@ -51,9 +51,9 @@
 
 %------页面设置------
 \ifSDU@opt@double
-	\newcommand{\GeoOptions}{left=2.5cm, right=2.5cm, top=3cm, bottom=3cm}
+	\newcommand{\GeoOptions}{left=3cm, right=3cm, top=2.5cm, bottom=2.5cm}
 \else
-	\newcommand{\GeoOptions}{left=2.5cm, right=2.5cm, top=3cm, bottom=3cm}
+	\newcommand{\GeoOptions}{left=3cm, right=3cm, top=2.5cm, bottom=2.5cm}
 \fi
 \RequirePackage[\GeoOptions]{geometry}
 %------页面设置------
