@@ -1,3 +1,6 @@
+\usepackage[AutoFakeBold=true, AutoFakeSlant=true]{xeCJK}
+\usepackage{fontspec}
+
 \newtoks\StuNum		     % 学号
 \newtoks\CThesisType     % 论文类型 中
 \newtoks\Ctitle		     % 中文标题
@@ -13,9 +16,11 @@
 \RequirePackage{makecell}
 \newcommand{\LeftLength}{2.3cm}
 \newcommand{\RightLength}{5.5cm}
-\newCJKfontfamily{\kt}[AutoFakeBold={2.17}]{KaiTiGB2312.ttf}
-\newcommand{\Mcs}[1]{\makebox[\LeftLength][s]{{\zihao{3}\kt\bfseries #1}}}
-\newcommand{\Mcc}[1]{\makebox[\RightLength][c]{{\zihao{3}\kt\bfseries #1}}}
+
+\setCJKfamilyfont{kt}[AutoFakeBold = {2.17}]{AR PL KaitiM GB}
+
+\newcommand{\Mcs}[1]{\makebox[\LeftLength][s]{{\zihao{3}\CJKfamily{kt}\bfseries #1}}}
+\newcommand{\Mcc}[1]{\makebox[\RightLength][c]{{\zihao{3}\CJKfamily{kt}\bfseries #1}}}
 
 \newcommand{\maketitlepage}{%
 	\thispagestyle{empty}
